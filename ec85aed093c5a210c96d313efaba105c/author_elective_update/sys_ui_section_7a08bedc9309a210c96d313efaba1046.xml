@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New section 1" section_id="7a08bedc9309a210c96d313efaba1046" sys_domain="global" table="x_1425578_itsm_u_0_incident_temp" version="3" view="">
+        <sys_ui_section action="DELETE">
+            <caption>New section 1</caption>
+            <header>false</header>
+            <name>x_1425578_itsm_u_0_incident_temp</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-17 21:55:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a08bedc9309a210c96d313efaba1046</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1425578_itsm_u_0_incident_temp</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ITSM use case 1" source="x_1425578_itsm_u_0">ec85aed093c5a210c96d313efaba105c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ITSM use case 1">ec85aed093c5a210c96d313efaba105c</sys_scope>
+            <sys_update_name>sys_ui_section_7a08bedc9309a210c96d313efaba1046</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-17 21:55:21</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITSM use case 1">ec85aed093c5a210c96d313efaba105c</application>
+        <file_path/>
+        <instance_id>a1eff6fb93b0e214401cddd548373c42</instance_id>
+        <instance_name>dev329219</instance_name>
+        <name>sys_ui_section_7a08bedc9309a210c96d313efaba1046</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New section 1" section_id="7a08bedc9309a210c96d313efaba1046" sys_domain="global" table="x_1425578_itsm_u_0_incident_temp" version="3" view=""><sys_ui_section action="INSERT_OR_UPDATE"><caption>New section 1</caption><header>false</header><name>x_1425578_itsm_u_0_incident_temp</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-17 21:55:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7a08bedc9309a210c96d313efaba1046</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1425578_itsm_u_0_incident_temp</sys_name><sys_overrides/><sys_package display_value="ITSM use case 1" source="x_1425578_itsm_u_0">ec85aed093c5a210c96d313efaba105c</sys_package><sys_policy/><sys_scope display_value="ITSM use case 1">ec85aed093c5a210c96d313efaba105c</sys_scope><sys_update_name>sys_ui_section_7a08bedc9309a210c96d313efaba1046</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-17 21:55:21</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-653712041</payload_hash>
+        <record_name>incident_temp</record_name>
+        <reverted_from/>
+        <source>7d57fe9c9309a210c96d313efaba101c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 21:59:21</sys_created_on>
+        <sys_id>5df8f2509349a210c96d313efaba101d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19645c37c3c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 21:59:21</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>15f8f2504649a210d19d66b91e7e451d</update_guid>
+        <update_guid_history>15f8f2504649a210d19d66b91e7e451d:-653712041,c708fedc1609a21086a5c3dc9a4f161d:264614503</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 21:59:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>25ba7158e7c541daa9c4b1a2dcff6b24</sys_id>
+        <sys_metadata>7a08bedc9309a210c96d313efaba1046</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New section 1</sys_name>
+        <sys_package display_value="ITSM use case 1" source="x_1425578_itsm_u_0">ec85aed093c5a210c96d313efaba105c</sys_package>
+        <sys_parent display_value="incident_temp">9a57fe9c9309a210c96d313efaba104e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ITSM use case 1">ec85aed093c5a210c96d313efaba105c</sys_scope>
+        <sys_scope_delete display_value="">04ab9e06529149c080a349e320f51000</sys_scope_delete>
+        <sys_update_name>sys_ui_section_7a08bedc9309a210c96d313efaba1046</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_7a08bedc9309a210c96d313efaba1046">5df8f2509349a210c96d313efaba101d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 21:59:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>incident</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Remove Temp Incident</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+    try {
+        // Query incident_temp for the deleted incident's number
+        var tempIncident = new GlideRecord('x_1425578_itsm_u_0_incident_temp'); // Replace with your table name
+        tempIncident.addQuery('incident_number', current.number); // Use correct field name
+        tempIncident.query();
+        
+        // Delete matching records
+        if (tempIncident.next()) {
+            tempIncident.deleteRecord(); // Delete the record
+            gs.info('Deleted record from incident_temp: ' + current.number);
+        }
+    } catch (e) {
+        gs.error('Error deleting from incident_temp: ' + e.message);
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-17 23:43:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>06101f5093c9a210c96d313efaba109b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Remove Temp Incident</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITSM use case 1" source="x_1425578_itsm_u_0">ec85aed093c5a210c96d313efaba105c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM use case 1">ec85aed093c5a210c96d313efaba105c</sys_scope>
+        <sys_update_name>sys_script_06101f5093c9a210c96d313efaba109b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-17 23:43:11</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=06101f5093c9a210c96d313efaba109b"/>
+</record_update>
