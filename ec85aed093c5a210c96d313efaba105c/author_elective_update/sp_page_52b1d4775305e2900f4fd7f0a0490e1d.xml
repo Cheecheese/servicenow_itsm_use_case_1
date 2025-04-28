@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css>$banner-768-svg : "d9bc1319533130101865ddeeff7b12ba.iix";&#13;
+&#13;
+main.body {&#13;
+  padding-top: 0rem !important;&#13;
+}&#13;
+&#13;
+/* Padding for container after banner image */&#13;
+.padding-top {&#13;
+  padding-top: 2.4rem;&#13;
+}&#13;
+&#13;
+/* Padding bottom after each widget */&#13;
+.child-b-margin &gt; span &gt; div &gt; *{&#13;
+  margin-bottom: 2.4rem;&#13;
+}&#13;
+&#13;
+.mobile-banner {&#13;
+  background-position: right bottom !important;&#13;
+}&#13;
+&#13;
+/* Max width for Containers to stay in view port*/&#13;
+.container {&#13;
+  max-width: 100%;&#13;
+}&#13;
+&#13;
+@media (max-width: 48em) {&#13;
+  .ng-scope.mobile-banner {&#13;
+    background-image:url($banner-768-svg) !important;&#13;
+    background-repeat: no-repeat;&#13;
+    background-size: cover;&#13;
+  }&#13;
+  .child-b-margin &gt; span &gt; div &gt; *{&#13;
+    margin-bottom: 1.6rem;&#13;
+  }&#13;
+  .padding-right {&#13;
+    padding-right: 0rem;&#13;
+  }&#13;
+   .padding-top {&#13;
+    padding-top: 1.6rem;&#13;
+  }&#13;
+}&#13;
+&#13;
+@media (max-width : 62em) {&#13;
+  .container {&#13;
+    width : 100%;&#13;
+  }&#13;
+  .col-md-4 {&#13;
+    width : 100%&#13;
+  }&#13;
+  .col-md-8 {&#13;
+    width : 100%&#13;
+  }&#13;
+  .left-column{&#13;
+    padding-left: 2.4rem;&#13;
+    padding-right: 2.4rem;	&#13;
+  }	&#13;
+  .right-column{&#13;
+    padding-left: 2.4rem;&#13;
+    padding-right: 2.4rem;	&#13;
+  }&#13;
+}&#13;
+&#13;
+@media (min-width: 62em) {	&#13;
+  .container {	&#13;
+    padding-left: 1.2rem;	&#13;
+    padding-right: 1.2rem;	&#13;
+  }	&#13;
+  .left-column{&#13;
+    padding-right: 0rem;	&#13;
+  }	&#13;
+  .right-column{&#13;
+    padding-left: 2.4rem;&#13;
+    padding-right: 1.6rem;&#13;
+  }	&#13;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>company_homepage</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description>An employee's one stop shop to get help.</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-28 06:47:26</sys_created_on>
+        <sys_id>52b1d4775305e2900f4fd7f0a0490e1d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>company_homepage</sys_name>
+        <sys_package display_value="ITSM use case 1" source="x_1425578_itsm_u_0">ec85aed093c5a210c96d313efaba105c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM use case 1">ec85aed093c5a210c96d313efaba105c</sys_scope>
+        <sys_update_name>sp_page_52b1d4775305e2900f4fd7f0a0490e1d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-28 06:48:27</sys_updated_on>
+        <title>Company Homepage</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=52b1d4775305e2900f4fd7f0a0490e1d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITSM use case 1">ec85aed093c5a210c96d313efaba105c</application>
+        <file_path/>
+        <instance_id>dc1a85e0ebf86254cbdefceacad0cdd3</instance_id>
+        <instance_name>dev317964</instance_name>
+        <name>sp_page_52b1d4775305e2900f4fd7f0a0490e1d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css>$banner-768-svg : "d9bc1319533130101865ddeeff7b12ba.iix";&#13;
+&#13;
+main.body {&#13;
+  padding-top: 0rem !important;&#13;
+}&#13;
+&#13;
+/* Padding for container after banner image */&#13;
+.padding-top {&#13;
+  padding-top: 2.4rem;&#13;
+}&#13;
+&#13;
+/* Padding bottom after each widget */&#13;
+.child-b-margin &gt; span &gt; div &gt; *{&#13;
+  margin-bottom: 2.4rem;&#13;
+}&#13;
+&#13;
+.mobile-banner {&#13;
+  background-position: right bottom !important;&#13;
+}&#13;
+&#13;
+/* Max width for Containers to stay in view port*/&#13;
+.container {&#13;
+  max-width: 100%;&#13;
+}&#13;
+&#13;
+@media (max-width: 48em) {&#13;
+  .ng-scope.mobile-banner {&#13;
+    background-image:url($banner-768-svg) !important;&#13;
+    background-repeat: no-repeat;&#13;
+    background-size: cover;&#13;
+  }&#13;
+  .child-b-margin &gt; span &gt; div &gt; *{&#13;
+    margin-bottom: 1.6rem;&#13;
+  }&#13;
+  .padding-right {&#13;
+    padding-right: 0rem;&#13;
+  }&#13;
+   .padding-top {&#13;
+    padding-top: 1.6rem;&#13;
+  }&#13;
+}&#13;
+&#13;
+@media (max-width : 62em) {&#13;
+  .container {&#13;
+    width : 100%;&#13;
+  }&#13;
+  .col-md-4 {&#13;
+    width : 100%&#13;
+  }&#13;
+  .col-md-8 {&#13;
+    width : 100%&#13;
+  }&#13;
+  .left-column{&#13;
+    padding-left: 2.4rem;&#13;
+    padding-right: 2.4rem;	&#13;
+  }	&#13;
+  .right-column{&#13;
+    padding-left: 2.4rem;&#13;
+    padding-right: 2.4rem;	&#13;
+  }&#13;
+}&#13;
+&#13;
+@media (min-width: 62em) {	&#13;
+  .container {	&#13;
+    padding-left: 1.2rem;	&#13;
+    padding-right: 1.2rem;	&#13;
+  }	&#13;
+  .left-column{&#13;
+    padding-right: 0rem;	&#13;
+  }	&#13;
+  .right-column{&#13;
+    padding-left: 2.4rem;&#13;
+    padding-right: 1.6rem;&#13;
+  }	&#13;
+}</css><draft>false</draft><dynamic_title_structure/><human_readable_url_structure/><id>company_homepage</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles/><seo_script/><short_description>An employee's one stop shop to get help.</short_description><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-28 06:47:26</sys_created_on><sys_id>52b1d4775305e2900f4fd7f0a0490e1d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>company_homepage</sys_name><sys_package display_value="ITSM use case 1" source="x_1425578_itsm_u_0">ec85aed093c5a210c96d313efaba105c</sys_package><sys_policy/><sys_scope display_value="ITSM use case 1">ec85aed093c5a210c96d313efaba105c</sys_scope><sys_update_name>sp_page_52b1d4775305e2900f4fd7f0a0490e1d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-28 06:48:27</sys_updated_on><title>Company Homepage</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=52b1d4775305e2900f4fd7f0a0490e1d"/></record_update>]]></payload>
+        <payload_hash>446287462</payload_hash>
+        <record_name>company_homepage</record_name>
+        <reverted_from/>
+        <source>bf756a425385ea500f4fd7f0a0490e82</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-28 06:48:28</sys_created_on>
+        <sys_id>95f15c775305e2900f4fd7f0a0490e9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1967b277ecb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-28 06:48:28</sys_updated_on>
+        <type>Page</type>
+        <update_guid>1df15c77d205e290f794c762d3a71a9a</update_guid>
+        <update_guid_history>1df15c77d205e290f794c762d3a71a9a:446287462,5ab1d4770905e290f074bce64acd361f:-32997292</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="company_homepage">add2ac3f5345e2900f4fd7f0a0490e64</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-28 08:02:14</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>2962bbafab384ef498209c54cf450c64</sys_id>
+        <sys_metadata>52b1d4775305e2900f4fd7f0a0490e1d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>company_homepage</sys_name>
+        <sys_package display_value="ITSM use case 1" source="x_1425578_itsm_u_0">ec85aed093c5a210c96d313efaba105c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITSM use case 1">ec85aed093c5a210c96d313efaba105c</sys_scope>
+        <sys_scope_delete display_value="">04ab9e06529149c080a349e320f51000</sys_scope_delete>
+        <sys_update_name>sp_page_52b1d4775305e2900f4fd7f0a0490e1d</sys_update_name>
+        <sys_update_version display_value="sp_page_52b1d4775305e2900f4fd7f0a0490e1d">95f15c775305e2900f4fd7f0a0490e9b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-28 08:02:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

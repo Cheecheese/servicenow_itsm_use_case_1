@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css>.my-items-container{&#13;
+  margin-left:0px;&#13;
+  margin-right:0px;&#13;
+}</css>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">26b118775305e2900f4fd7f0a0490ed9</sp_column>
+        <sp_widget display_value="My Items">6e449453c33030105a09f0ad9840ddf0</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-28 06:47:27</sys_created_on>
+        <sys_id>aab118775305e2900f4fd7f0a0490edb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ITSM use case 1" source="x_1425578_itsm_u_0">ec85aed093c5a210c96d313efaba105c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM use case 1">ec85aed093c5a210c96d313efaba105c</sys_scope>
+        <sys_update_name>sp_instance_aab118775305e2900f4fd7f0a0490edb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-28 06:47:27</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=aab118775305e2900f4fd7f0a0490edb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ITSM use case 1">ec85aed093c5a210c96d313efaba105c</application>
+        <file_path/>
+        <instance_id>dc1a85e0ebf86254cbdefceacad0cdd3</instance_id>
+        <instance_name>dev317964</instance_name>
+        <name>sp_instance_aab118775305e2900f4fd7f0a0490edb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css>.my-items-container{&#13;
+  margin-left:0px;&#13;
+  margin-right:0px;&#13;
+}</css><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="2">26b118775305e2900f4fd7f0a0490ed9</sp_column><sp_widget display_value="My Items">6e449453c33030105a09f0ad9840ddf0</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-28 06:47:27</sys_created_on><sys_id>aab118775305e2900f4fd7f0a0490edb</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="ITSM use case 1" source="x_1425578_itsm_u_0">ec85aed093c5a210c96d313efaba105c</sys_package><sys_policy/><sys_scope display_value="ITSM use case 1">ec85aed093c5a210c96d313efaba105c</sys_scope><sys_update_name>sp_instance_aab118775305e2900f4fd7f0a0490edb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-28 06:47:27</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=aab118775305e2900f4fd7f0a0490edb"/></record_update>]]></payload>
+        <payload_hash>-120062348</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>bf756a425385ea500f4fd7f0a0490e82</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-28 06:47:27</sys_created_on>
+        <sys_id>2eb118775305e2900f4fd7f0a0490edd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1967b26910e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-28 06:47:27</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>22b11877d105e29036821715f4514cdd</update_guid>
+        <update_guid_history>22b11877d105e29036821715f4514cdd:-120062348</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">82d220bf5345e2900f4fd7f0a0490e14</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-28 08:02:14</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>2f50c5976fb74c7c9b39112d95cff764</sys_id>
+        <sys_metadata>aab118775305e2900f4fd7f0a0490edb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ITSM use case 1" source="x_1425578_itsm_u_0">ec85aed093c5a210c96d313efaba105c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ITSM use case 1">ec85aed093c5a210c96d313efaba105c</sys_scope>
+        <sys_scope_delete display_value="">04ab9e06529149c080a349e320f51000</sys_scope_delete>
+        <sys_update_name>sp_instance_aab118775305e2900f4fd7f0a0490edb</sys_update_name>
+        <sys_update_version display_value="sp_instance_aab118775305e2900f4fd7f0a0490edb">2eb118775305e2900f4fd7f0a0490edd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-28 08:02:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
