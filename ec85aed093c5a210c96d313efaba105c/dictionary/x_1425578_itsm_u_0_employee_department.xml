@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f22b34c053d926900f4fd7f0a0490e76" extends="x_1425578_itsm_u_0_employee" label="Employee Department" max_length="40" name="x_1425578_itsm_u_0_employee_department" type="collection">
+        <element label="Department Name" max_length="40" name="department_name" type="string"/>
+        <element label="Location" max_length="40" name="location" type="string"/>
+    </element>
+</database>

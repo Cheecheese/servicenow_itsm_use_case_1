@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-29 04:31:07</sys_created_on>
+        <sys_id>531c308453d926900f4fd7f0a0490e88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1425578_itsm_u_0_employee_department.x_1425578_itsm_u_0.employee_department_user</sys_name>
+        <sys_package display_value="ITSM use case 1" source="x_1425578_itsm_u_0">ec85aed093c5a210c96d313efaba105c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ITSM use case 1">ec85aed093c5a210c96d313efaba105c</sys_scope>
+        <sys_security_acl display_value="x_1425578_itsm_u_0_employee_department">5b1c308453d926900f4fd7f0a0490e84</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_531c308453d926900f4fd7f0a0490e88</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-29 04:31:07</sys_updated_on>
+        <sys_user_role display_value="x_1425578_itsm_u_0.employee_department_user" name="x_1425578_itsm_u_0.employee_department_user">be1c3c0453d926900f4fd7f0a0490ee2</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
