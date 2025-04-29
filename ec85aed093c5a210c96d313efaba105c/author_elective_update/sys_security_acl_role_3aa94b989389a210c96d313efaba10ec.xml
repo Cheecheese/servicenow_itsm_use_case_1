@@ -41,7 +41,7 @@
         <update_guid_history>b2a94b98d989a210d8ce60dffdca7eef:1782274446</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1425578_itsm_u_0_incident_temp.x_1425578_itsm_u_0.admin">d3501fd093c9a210c96d313efaba1063</sys_audit_delete>
+        <sys_audit_delete display_value="">d3501fd093c9a210c96d313efaba1063</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-17 23:41:37</sys_created_on>

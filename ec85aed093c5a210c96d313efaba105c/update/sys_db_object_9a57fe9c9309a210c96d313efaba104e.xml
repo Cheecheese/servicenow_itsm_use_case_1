@@ -14,7 +14,7 @@
         <label>incident_temp</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_1425578_itsm_u_0_incident_temp</name>
-        <number_ref display_value="IN">6257fe9c9309a210c96d313efaba1075</number_ref>
+        <number_ref display_value="">6257fe9c9309a210c96d313efaba1075</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
